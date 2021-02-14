@@ -1,0 +1,6 @@
+git clone สร้าง local repository จาก remote repository
+git remote -v แสดงรายการ remote address ทั้งหมด
+git fetch ดึงข้อมูล จาก remote มายัง local
+git merge origin/master รวมไฟล์จาก origin/master มายัง local branch
+git pull รวมไฟล์จากฝั่ง remote มายัง local (git fetch + git merge)
+git push origin <branch_name> ส่งข้อมูลจาก local branch ไปรวมกับ origin remote.
